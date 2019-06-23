@@ -20,7 +20,7 @@ public class BaseTestClass extends ChromeDriver {
 	public WebElement findElement(By arg0) {
 		// TODO Auto-generated method stub
 		return null;
-	}
+ }
 
 	public List<WebElement> findElements(By arg0) {
 		// TODO Auto-generated method stub
