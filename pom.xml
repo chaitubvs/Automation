@@ -39,6 +39,9 @@
     <artifactId>selenium-java</artifactId>
     <version>3.141.5</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.outerj.daisy/daisydiff -->
+
+
     
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
 <dependency>
