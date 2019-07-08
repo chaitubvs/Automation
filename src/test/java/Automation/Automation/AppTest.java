@@ -1,5 +1,7 @@
 package Automation.Automation;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
@@ -21,7 +23,6 @@ public class AppTest extends Necessary
 		c.getURL("http://google.com");
 		c.closeDriver();
 		
-		
 	}
 	
 	@Test(priority=1)
@@ -31,6 +32,7 @@ public class AppTest extends Necessary
 		CommonUtilities c = new CommonUtilities(driver);
 		c.launchChromeBrowser();
 		c.getURL("http://facebook.com");
+		//assert.assertEquals("String", "Stromg");
 		c.closeDriver();
 		
 	}
