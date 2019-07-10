@@ -16,6 +16,7 @@ public class CommonUtilities {
 			String path = System.getProperty("user.dir")+"//resources//chromedriver.exe";
 			System.setProperty("webdriver.chrome.driver",path );
 			driver = new BaseTestClass();
+			//comments
 			
 	}
 	public void getURL(String url)
