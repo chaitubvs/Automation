@@ -25,7 +25,8 @@ public class CommonUtilities {
 	
 	public void closeDriver()
 	{
-		driver.close();
+		driver.quit();
+		
 	}
 	
 	
